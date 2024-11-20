@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,21 +14,23 @@
         <p id="output"></p>
     </div>
     <script src="popup.js"></script>
-</body>
+</body> -->
 </html>
-
-<!-- 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RAG App</title>
+  <title>PDF Chat RAG</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <input type="text" id="queryInput" placeholder="Enter your question">
-    <button id="queryButton">Submit</button>
+  <div class="container">
+    <h1>PDF Chat RAG</h1>
+    <input type="file" id="pdfInput" accept="application/pdf">
+    <textarea id="queryInput" placeholder="Ask a question..."></textarea>
+    <button id="queryButton">Send</button>
     <p id="output"></p>
-    <script type="module" src="popup.js"></script>
+  </div>
+  <!-- <script src="libs/pdf.min.js"></script> -->
+  <script src="popup.js"></script>
 </body>
-</html> -->
+</html>
