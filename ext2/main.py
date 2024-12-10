@@ -10,7 +10,7 @@ from huggingface_hub import InferenceClient
 app = Flask(__name__)
 CORS(app)  # To allow cross-origin requests from the Chrome extension
 
-client = InferenceClient(api_key="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")
+client = InferenceClient(api_key="")
 
 # Initialize vector database and RAG pipeline
 # embeddings = OpenAIEmbeddings(openai_api_key="YOUR_OPENAI_API_KEY")
